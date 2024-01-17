@@ -9,11 +9,16 @@
   <body>
     <header>
       <nav>
-        <img src="icone/logo-.png" alt="" />
-        <h2>Dream<span>S</span> <span>Tra</span>vel</h2>
+        <img src="icone/Group 40071 (2).png" alt="" />
+        <h2 class="header-titel">
+          Dream<span class="head-titel">S</span>
+          <span class="head-titel">Tra</span>vel
+        </h2>
 
         <ul>
-          <li><a href="">Home</a></li>
+          <li>
+            <a href=""> <span class="home-btn">Home</span></a>
+          </li>
           <li><a href=""> Packages</a></li>
           <li><a href="">Testimonial</a></li>
           <li><a href="">Blog</a></li>
@@ -22,50 +27,54 @@
       </nav>
 
       <section class="main-content">
-        <h1>Explore Your Travel</h1>
-        <p>
+        <h1 class="main-content-title">Explore Your Travel</h1>
+        <p class="main-content-description">
           Welcome to Explore Your Travel, where each click opens the door to a
           world of limitless exploration and adventure. Our platform is more
           than a travel website; it's your personal gateway to unparalleled
           journeys and undiscovered destinations.
         </p>
-        <input type="button" value="Where go" />
-        <input type="button" value="When" />
-        <input type="button" value="Select Type" />
-        <input type="button" value="Find Now" />
+        <input class="wher-go" type="button" value=" Where go " />
+        <select class="wher-go" name="place" id="place">
+          <option value="When">When</option>
+        </select>
+        <select class="wher-go" name="place" id="place">
+          <option value="Select Type">Select Type</option>
+        </select>
+        <input class="find-now" type="button" placeholder="" value="Find Now" />
       </section>
     </header>
 
     <main>
       <section class="content-tour">
-        <div>
-          <h2>Our Popular Tours</h2>
-          <p class="content-description">
+        <div class="content-tour-point">
+          <h2 class="content-tour-title">Our Popular Tours</h2>
+          <p class="content-tour-description">
             Embark on unforgettable journeys with Explore Your Travel and
             discover why our popular tours.
           </p>
-          <ul>
-            <li class="content-description">
+          <ul class="content-tour-description">
+            <li>
               Handpicked Destinations: Our team of travel experts scours the
               globe to bring you the most captivating and sought-after
               destinations.
             </li>
-            <li class="content-description">
+            <li>
               Expertly Crafted Itineraries: Experience the art of travel with
               our meticulously crafted itineraries.
             </li>
-            <li class="content-description">
+            <li>
               Sustainable and Responsible Travel: As stewards of the environment
             </li>
           </ul>
-          <p class="content-description">
+          <p class="content-tour-description">
             Choose Explore Your Travel for a journey that transcends the
             ordinary. Our popular tours redefine travel excellence, inviting you
             to explore the world with confidence.
           </p>
-          <button>Read More</button>
+          <button class="primary-button">Read More</button>
         </div>
-        <div>
+        <div class="content-tour-image">
           <img src="Images/Rectangle 4.png" alt="" />
         </div>
       </section>
@@ -83,37 +92,37 @@
       <section>
         <div class="banner-section">
           <div class="banner-card">
-            <img src="Images/Rectangle 5.png" alt="" />
+            <img id="banner-image1" src="Images/Rectangle 5.png" alt="" />
             <h2 class="banner-title">Maldives</h2>
           </div>
           <div class="banner-card">
-            <img src="Images/Rectangle 8 (1).png" alt="" />
+            <img id="banner-image2" src="Images/Rectangle 8 (1).png" alt="" />
             <h2 class="banner-title">Indonesia</h2>
           </div>
         </div>
 
         <div class="banner-section">
           <div class="banner-card">
-            <img src="Images/Rectangle 6.png" alt="" />
+            <img id="banner-image3" src="Images/Rectangle 6.png" alt="" />
             <h2 class="banner-title">Srilanka</h2>
           </div>
           <div class="banner-card">
-            <img src="Images/Rectangle 7.png" alt="" />
+            <img id="banner-image4" src="Images/Rectangle 7.png" alt="" />
             <h2 class="banner-title">North America</h2>
           </div>
           <div class="banner-card">
-            <img src="Images/Rectangle 9.png" alt="" />
+            <img id="banner-image5" src="Images/Rectangle 9.png" alt="" />
             <h2 class="banner-title">Kashmir</h2>
           </div>
         </div>
 
         <div class="banner-section">
           <div class="banner-card">
-            <img src="Images/Rectangle 11.png" alt="" />
+            <img id="banner-image6" src="Images/Rectangle 11.png" alt="" />
             <h2 class="banner-title">Bangladesh</h2>
           </div>
           <div class="banner-card">
-            <img src="Images/Rectangle 10.png" alt="" />
+            <img id="banner-image7" src="Images/Rectangle 10.png" alt="" />
             <h2 class="banner-title">Bandarban</h2>
           </div>
         </div>
@@ -184,15 +193,18 @@
         </div>
       </section>
 
-      <section>
+      <section class="video-section">
         <div class="content-video">
-          <div>
-            <h2>A Simple Perfect Place To Get Lost</h2>
-            <p>
+          <div class="content-video-des">
+            <h2 class="content-tour-title">
+              A Simple Perfect Place <br />
+              To Get Lost
+            </h2>
+            <p class="content-tour-description">
               Amet consectetur. Vulputate commodo felis molestie risus ornare
               nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
             </p>
-            <ul>
+            <ul class="content-video-description">
               <li>
                 Adipiscing ornare pellentesque mauris volutpat tortor vitae
                 platea porta lacus. Lectus suspendisse nullam.
@@ -202,9 +214,9 @@
                 platea porta lacus. Lectus suspendisse nullam.
               </li>
             </ul>
-            <button>See More</button>
+            <button class="primary-button">See More</button>
           </div>
-          <div>
+          <div class="content-video-point">
             <iframe
               width="560"
               height="315"
@@ -219,38 +231,67 @@
       </section>
       <section>
         <div class="news-section">
-          <div>
-            <h2>Newsletter</h2>
-            <p>Get your daily dose of travel news & tips. Sign up today!</p>
-            <input type="text" placeholder="Enter your name" /> <br />
-            <input type="text" placeholder="Enter your email" />
-            <button>Subscribe</button>
+          <div class="news-section-des">
+            <h2 class="news-title">Newsletter</h2>
+            <p class="news-description">
+              Get your daily dose of travel news & tips. Sign up today!
+            </p>
+            <input
+              class="input-filup"
+              type="text"
+              placeholder="Enter your name"
+            />
+            <br />
+            <input
+              class="input-filup"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <br />
+            <button class="primary-button2">Subscribe</button>
           </div>
-          <div>
+
+          <div class="news-section-image">
             <img src="Images/Rectangle 8 (1).png" alt="" />
+            <div class="save-seventy">
+              <h2>Travel.com</h2>
+              <p id="save">Save up to 70%</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <!---footer section -->
     <footer>
-      <div></div>
-      <div>
+      <div class="footer-section">
+        <img src="icone/Group 40071 (2).png" alt="" />
+        <h2>Dream<span>S</span> <span>Tra</span>vel</h2>
+      </div>
+      <div id="footer-description">
         <p>
-          Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae
-          blandit orci potenti vulputate. Leo erat maecenas vitae elementum
-          ultricies nullam.
+          Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+          porta lacus. Lectus suspendisse nullam
         </p>
       </div>
-      <section>
+      <section id="social-media-section">
         <div id="social-media">
-          <div><img src="icone/Facebook.png" alt="" /></div>
-          <div><img src="icone/Instagram.png" alt="" /></div>
-          <div><img src="icone/Twitter.png" alt="" /></div>
-          <div><img src="icone/Linkedin.png" alt="" /></div>
+          <div class="social-media-image">
+            <img src="icone/Facebook.png" alt="" />
+          </div>
+          <div class="social-media-image">
+            <img src="icone/Instagram.png" alt="" />
+          </div>
+          <div class="social-media-image">
+            <img src="icone/Twitter.png" alt="" />
+          </div>
+          <div class="social-media-image">
+            <img src="icone/Linkedin.png" alt="" />
+          </div>
         </div>
-        <hr />
+        <hr class="line" />
+        <h3 class="footer-end-title">2017, All Rights Reserved.</h3>
       </section>
     </footer>
+    <!---footer--end-->
   </body>
 </html>
