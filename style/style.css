@@ -357,7 +357,14 @@ nav li a {
 .discount-card {
   text-align: center;
 }
+div > ul {
+  display: flex;
+}
+div li {
+  list-style: none;
+}
 .banner-right {
+  padding-left: 30px;
 }
 
 .content-video {
@@ -516,4 +523,20 @@ footer {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+/*---responsive section---*/
+
+/*----mobile device---*/
+
+@media screen and(max-width:576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
 }
